@@ -1,11 +1,17 @@
 [
   {
-    "task": "Write a Python function that takes an AWS S3 bucket ARN as input and extracts just the bucket name from it. The function should handle ARNs in the format 'arn:aws:s3:::bucket-name' and return only the bucket name portion."
+    "task": "Parse an AWS CloudFormation template and extract all resource logical IDs that are of type AWS::S3::Bucket",
+    "format": "python",
+    "solution_criteria": "Function should accept a CloudFormation JSON template as input and return a list of logical IDs for S3 buckets. Must handle nested resources and return an empty list if none exist."
   },
   {
-    "task": "Create a JSON object that defines an AWS IAM policy allowing read-only access to a specific S3 bucket named 'company-logs'. The policy should include the necessary statements to list bucket contents and get objects."
+    "task": "Create a JSON IAM policy that allows a principal to perform s3:GetObject and s3:PutObject actions only on objects with a specific prefix 'uploads/' in a given S3 bucket ARN",
+    "format": "json",
+    "solution_criteria": "Valid IAM policy structure with explicit Effect, Action, Resource, and Condition elements. Resource should use wildcards to match the prefix pattern. Must be valid JSON that can be attached to an IAM role."
   },
   {
-    "task": "Write a regex pattern that validates AWS region names. The pattern should match valid AWS region formats like 'us-east-1', 'eu-west-2', 'ap-southeast-1', but reject invalid formats like 'us-east', 'invalid-region-name', or 'us_east_1'."
+    "task": "Write a regular expression that validates and extracts AWS S3 bucket names from a text string containing multiple bucket references in the format s3://bucket-name/",
+    "format": "regex",
+    "solution_criteria": "Regex should match valid S3 bucket names (lowercase letters, numbers, hyphens, 3-63 characters) and capture only the bucket name portion without the 's3://' prefix or trailing slash. Should work with multiple bucket references in a single string."
   }
 ]
