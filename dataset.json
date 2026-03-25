@@ -1,17 +1,34 @@
 [
   {
-    "task": "Parse an AWS CloudFormation template and extract all resource logical IDs that are of type AWS::S3::Bucket",
-    "format": "python",
-    "solution_criteria": "Function should accept a CloudFormation JSON template as input and return a list of logical IDs for S3 buckets. Must handle nested resources and return an empty list if none exist."
+    "prompt_inputs": {},
+    "solution_criteria": [
+      "System handles empty input gracefully without crashing",
+      "Returns appropriate default behavior or error message",
+      "Clearly communicates what input is required or expected"
+    ],
+    "task_description": "",
+    "scenario": "Testing with empty or minimal input to verify error handling and default behavior"
   },
   {
-    "task": "Create a JSON IAM policy that allows a principal to perform s3:GetObject and s3:PutObject actions only on objects with a specific prefix 'uploads/' in a given S3 bucket ARN",
-    "format": "json",
-    "solution_criteria": "Valid IAM policy structure with explicit Effect, Action, Resource, and Condition elements. Resource should use wildcards to match the prefix pattern. Must be valid JSON that can be attached to an IAM role."
+    "prompt_inputs": {},
+    "solution_criteria": [
+      "Identifies and summarizes the core request despite verbose formatting",
+      "Extracts essential information while ignoring redundant or tangential content",
+      "Provides a clear, concise response without reproducing the verbosity"
+    ],
+    "task_description": "",
+    "scenario": "Testing with extremely verbose or redundant input to assess efficiency and ability to extract core information"
   },
   {
-    "task": "Write a regular expression that validates and extracts AWS S3 bucket names from a text string containing multiple bucket references in the format s3://bucket-name/",
-    "format": "regex",
-    "solution_criteria": "Regex should match valid S3 bucket names (lowercase letters, numbers, hyphens, 3-63 characters) and capture only the bucket name portion without the 's3://' prefix or trailing slash. Should work with multiple bucket references in a single string."
+    "prompt_inputs": {
+      "request": "I need to organize a team meeting, but I'm not sure if it should focus on project updates, budget review, or strategic planning. Some team members want to discuss hiring needs, while others are concerned about deadline slippage on the current project. What should the agenda be?"
+    },
+    "solution_criteria": [
+      "Identifies the conflicting priorities and ambiguities in the request",
+      "Asks clarifying questions to resolve the ambiguity (e.g., time constraints, stakeholder priorities, meeting duration)",
+      "Proposes a reasonable agenda structure that acknowledges multiple needs or explains trade-offs between them"
+    ],
+    "task_description": "",
+    "scenario": "Testing with ambiguous or conflicting input to evaluate clarification and decision-making capabilities"
   }
 ]
