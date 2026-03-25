@@ -1,0 +1,65 @@
+[
+  {
+    "output": "# Nutrition Plan for Marathon Preparation\n\n## Daily Caloric Target\n**~2,800-3,200 calories** (depending on training phase)\n\n## Macronutrient Distribution\n\n### Carbohydrates: 55-65% (385-520g)\n- **Primary fuel for endurance training**\n- Focus on complex carbs: oats, brown rice, quinoa, whole wheat bread\n- Include fruits: bananas, berries, dates\n- Timing: consistent intake throughout day, especially pre/post-workout\n\n### Protein: 15-20% (105-160g)\n- Support muscle recovery and maintenance\n- Sources: chicken, fish, eggs, Greek yogurt, legumes, nuts\n- Distribute across 4-5 meals for optimal synthesis\n\n### Fats: 20-25% (62-89g)\n- Include omega-3s: fatty fish, flaxseeds, chia seeds\n- Healthy sources: olive oil, nuts, avocados\n\n## Key Meals\n\n**Breakfast:** Oatmeal + banana + almonds + honey\n\n**Pre-run:** Bagel + peanut butter (2-3 hours before)\n\n**Post-run:** Chicken with rice + vegetables + olive oil\n\n**Snacks:** Energy bars, dates, fruit, trail mix\n\n## Hydration\n- 2.5-3L daily + 500-750ml per hour during long runs\n- Include electrolytes in runs >90 minutes\n\n## Carb-Loading Strategy (3-4 days pre-race)\nIncrease carbs to 70% of calories while reducing fiber and fat slightly.\n\nWould you like specific meal plans or timing adjustments?",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "68 kg",
+        "goal": "Marathon preparation with carbohydrate loading for high-endurance performance",
+        "restriction": "None"
+      },
+      "solution_criteria": [
+        "Meal plan totals 3000-3500 calories appropriate for a 68kg endurance athlete",
+        "Macronutrient ratio emphasizes carbohydrates (55-65% of calories) with adequate protein (1.2-1.6g per kg body weight) and moderate fat",
+        "Includes 4-5 meals/snacks distributed throughout the day with timing suitable for training",
+        "All meals are practical, compact, and realistic for a single day"
+      ],
+      "task_description": "write a compact, concise 1 day meal for a single athlete",
+      "scenario": "Testing with a high-endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading with specific macronutrient ratios"
+    },
+    "score": 3,
+    "reasoning": "The solution fails to meet all three mandatory requirements. While it provides a caloric target range and macronutrient percentages, it does not deliver: (1) exact food portions for any meal, (2) specific meal timing throughout the day, or (3) a verified daily total with actual macronutrient calculations. The response reads as a framework/template rather than a concrete 1-day meal plan. The task explicitly requests 'a compact, concise 1 day meal' with specific meals, but the solution provides only meal categories without actionable details. This is a structural failure to deliver the core requirement."
+  },
+  {
+    "output": "# \u26a0\ufe0f Important Reality Check\n\n**This goal is not safe or sustainable.** Losing 2 kg in 7 days while maintaining strength requires extreme measures that risk:\n- Severe dehydration\n- Muscle loss (despite high protein)\n- Electrolyte imbalance\n- Competition performance decline\n- Health complications\n\n---\n\n## If This Is For Competition Weigh-In\n\nA safer approach:\n\n**Daily Structure (~1,700-1,800 cal):**\n- **Protein: 160-170g** (chicken, fish, eggs, Greek yogurt)\n- **Carbs: 100-120g** (rice, potatoes, oats - timed around training)\n- **Fat: 40-50g** (minimal added fats)\n- **Sodium: Controlled** (reduce 2-3 days before, then replenish)\n\n**Sample day:**\n- Breakfast: Eggs, rice, salt\n- Lunch: Lean meat, sweet potato, greens\n- Pre-workout: Simple carbs\n- Post-workout: Protein + carbs\n- Dinner: Fish, vegetables, minimal fat\n\n**Water:** 2-3L daily (adjust based on weight loss progress)\n\n---\n\n## Better Alternative\n\n**Lose 1.5 kg in 7 days + maintain 0.5 kg fluid adjustment** = achievable without sacrificing strength.\n\n**Consult:**\n- A sports nutritionist\n- Your competition's medical staff\n- A physician (rapid weight cuts can be dangerous)\n\nWhat's the timeline? Could you start the cut earlier with a slower rate?",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "70 kg",
+        "goal": "Cut 2 kg in 7 days while maintaining strength for competition weigh-in",
+        "restriction": "Gluten-free, high protein, must stay under 1,800 calories daily"
+      },
+      "solution_criteria": [
+        "Meal plan totals exactly or under 1,800 calories",
+        "Provides at least 140g protein across all meals",
+        "Includes 4-5 meals with specific timing for optimal nutrient absorption",
+        "All meals are gluten-free and concisely described"
+      ],
+      "task_description": "write a compact, concise 1 day meal for a single athlete",
+      "scenario": "Testing with a weight-class restricted athlete (boxer/weightlifter) needing precise portion control and meal timing to meet strict caloric or weight targets"
+    },
+    "score": 2,
+    "reasoning": "While the solution demonstrates ethical responsibility by cautioning against unsafe weight loss practices, it fundamentally fails to deliver what was requested: a specific 1-day meal plan. The solution violates all three mandatory requirements by: (1) not providing a daily calorie total, (2) not providing exact macronutrient breakdowns, and (3) not including specific meals with exact portions and timing. The vague structural guidance ('Eggs, rice, salt' / 'Lean meat, sweet potato, greens') does not constitute a concrete meal plan. The solution reads more like nutritional advice than a deliverable meal plan, making it unsuitable for immediate use by the athlete."
+  },
+  {
+    "output": "# Nutrition Plan for Marathon Training (Vegan, GF, Tree Nut Allergy)\n\n## Daily Macronutrient Targets\n- **Calories**: ~2,800-3,200 (adjust based on training intensity)\n- **Carbs**: 55-60% (primary fuel for endurance)\n- **Protein**: 1.6-1.8g/kg body weight (~115-130g daily)\n- **Fat**: 20-25%\n\n## Key Protein Sources\n- Legumes: lentils, chickpeas, black beans, peas\n- Soy products: tofu, tempeh, edamame, soy milk\n- Seeds: sunflower, pumpkin, hemp, sesame\n- Whole grains: quinoa, amaranth\n- Plant-based protein powder (pea, hemp, or soy-based)\n\n## Carb-Rich Foods\n- Oats, rice, potatoes, sweet potatoes\n- Gluten-free pasta, rice cakes, bread\n- Fruit (especially bananas pre/post-workout)\n- Gluten-free oats with plant milk\n\n## Training Nutrition\n- **During long runs (90+ min)**: Rice-based gels, dried fruit, dates, or sports drink (check GF)\n- **Post-run recovery**: Carbs + protein within 30-60 min (smoothie with plant milk, fruit, protein powder)\n\n## Sample Day\n- **Breakfast**: GF oats, banana, pumpkin seeds, plant milk\n- **Lunch**: Lentil salad, sweet potato, olive oil\n- **Snack**: Fruit + sunflower seed butter\n- **Dinner**: Tofu stir-fry, rice, vegetables\n- **Post-workout**: Plant protein smoothie\n\nWould you like specific meal ideas or race-day nutrition strategies?",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178",
+        "weight": "72",
+        "goal": "endurance performance (marathon training)",
+        "restriction": "vegan and gluten-free with tree nut allergy"
+      },
+      "solution_criteria": [
+        "Meal plan covers all three meals plus snacks within one day",
+        "All foods comply with vegan, gluten-free, and tree nut-free restrictions",
+        "Provides adequate carbohydrates, protein, and micronutrients for endurance athlete performance",
+        "Compact format with practical, readily available ingredients"
+      ],
+      "task_description": "write a compact, concise 1 day meal for a single athlete",
+      "scenario": "Testing with an athlete with dietary restrictions (vegan/gluten-free/nut allergy) requiring nutrient-dense alternatives while maintaining athletic performance nutrition standards"
+    },
+    "score": 3,
+    "reasoning": "The solution fails to meet all three mandatory requirements. While it provides calorie targets (2,800-3,200) and macronutrient percentages, it does not deliver a daily calorie total for the actual sample day. The sample day meals lack exact portions entirely (no grams, cups, or serving sizes) and lack specific timing. The solution reads as a template/framework rather than a concrete 1-day meal plan. It demonstrates good nutritional knowledge and restriction compliance, but does not fulfill the core deliverable of a specific, actionable meal plan with portions and timing."
+  }
+]

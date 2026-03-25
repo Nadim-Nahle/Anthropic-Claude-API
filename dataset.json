@@ -1,34 +1,50 @@
 [
   {
-    "prompt_inputs": {},
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "68 kg",
+      "goal": "Marathon preparation with carbohydrate loading for high-endurance performance",
+      "restriction": "None"
+    },
     "solution_criteria": [
-      "System handles empty input gracefully without crashing",
-      "Returns appropriate default behavior or error message",
-      "Clearly communicates what input is required or expected"
+      "Meal plan totals 3000-3500 calories appropriate for a 68kg endurance athlete",
+      "Macronutrient ratio emphasizes carbohydrates (55-65% of calories) with adequate protein (1.2-1.6g per kg body weight) and moderate fat",
+      "Includes 4-5 meals/snacks distributed throughout the day with timing suitable for training",
+      "All meals are practical, compact, and realistic for a single day"
     ],
-    "task_description": "",
-    "scenario": "Testing with empty or minimal input to verify error handling and default behavior"
-  },
-  {
-    "prompt_inputs": {},
-    "solution_criteria": [
-      "Identifies and summarizes the core request despite verbose formatting",
-      "Extracts essential information while ignoring redundant or tangential content",
-      "Provides a clear, concise response without reproducing the verbosity"
-    ],
-    "task_description": "",
-    "scenario": "Testing with extremely verbose or redundant input to assess efficiency and ability to extract core information"
+    "task_description": "write a compact, concise 1 day meal for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading with specific macronutrient ratios"
   },
   {
     "prompt_inputs": {
-      "request": "I need to organize a team meeting, but I'm not sure if it should focus on project updates, budget review, or strategic planning. Some team members want to discuss hiring needs, while others are concerned about deadline slippage on the current project. What should the agenda be?"
+      "height": "178 cm",
+      "weight": "70 kg",
+      "goal": "Cut 2 kg in 7 days while maintaining strength for competition weigh-in",
+      "restriction": "Gluten-free, high protein, must stay under 1,800 calories daily"
     },
     "solution_criteria": [
-      "Identifies the conflicting priorities and ambiguities in the request",
-      "Asks clarifying questions to resolve the ambiguity (e.g., time constraints, stakeholder priorities, meeting duration)",
-      "Proposes a reasonable agenda structure that acknowledges multiple needs or explains trade-offs between them"
+      "Meal plan totals exactly or under 1,800 calories",
+      "Provides at least 140g protein across all meals",
+      "Includes 4-5 meals with specific timing for optimal nutrient absorption",
+      "All meals are gluten-free and concisely described"
     ],
-    "task_description": "",
-    "scenario": "Testing with ambiguous or conflicting input to evaluate clarification and decision-making capabilities"
+    "task_description": "write a compact, concise 1 day meal for a single athlete",
+    "scenario": "Testing with a weight-class restricted athlete (boxer/weightlifter) needing precise portion control and meal timing to meet strict caloric or weight targets"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178",
+      "weight": "72",
+      "goal": "endurance performance (marathon training)",
+      "restriction": "vegan and gluten-free with tree nut allergy"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three meals plus snacks within one day",
+      "All foods comply with vegan, gluten-free, and tree nut-free restrictions",
+      "Provides adequate carbohydrates, protein, and micronutrients for endurance athlete performance",
+      "Compact format with practical, readily available ingredients"
+    ],
+    "task_description": "write a compact, concise 1 day meal for a single athlete",
+    "scenario": "Testing with an athlete with dietary restrictions (vegan/gluten-free/nut allergy) requiring nutrient-dense alternatives while maintaining athletic performance nutrition standards"
   }
 ]
